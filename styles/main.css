@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: url("/styles/images/demo.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+}
+h1 {
+  font-size: 10em;
+}
+h2 {
+  font-size: 8em;
+}
+h3 {
+  font-size: 6em;
+}
+h4 {
+  font-size: 4em;
+}
+h5 {
+  font-size: 2em;
+}
+h6 {
+  font-size: 1em;
+}
+.container {
+/*background: green;*/
+  position: relative;
+  width: 100%;
+  height: auto !important;
+/* real browsers */
+  height: 100%;
+/* IE6: treaded as min-height*/
+  min-height: 100%;
+/* real browsers */
+}
+.box-left,
+.box-right {
+/*background #dcdcdc*/
+  padding: 10px 30px 30px 30px;
+}
+.box-left {
+  width: 62%;
+  float: left;
+  position: relative;
+}
+.box-right:before,
+.box-right {
+  width: 36%;
+/*background #ffff00*/
+  float: right;
+  position: relative;
+  height: auto !important;
+/* real browsers */
+  height: 100%;
+/* IE6: treaded as min-height*/
+  min-height: 100%;
+/* real browsers */
+}
+.box-right-bg {
+  position: absolute;
+  margin: -10px 0 0 -30px;
+  width: 100%;
+  height: 100%;
+  background: #808080;
+  z-index: -1;
+  opacity: 0.8;
+  -webkit-filter: blur(2px) contrast(5.4) brightness(1.8);
+}
+.today {
+  width: 100%;
+  height: 100%;
+}
+.today_item {
+  width: 50%;
+  float: left;
+}
+.day_2_item {
+  text-align: center;
+  float: left;
+  width: 33%;
+}
