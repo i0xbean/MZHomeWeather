@@ -3,7 +3,7 @@ html {
 }
 body {
   height: 100%;
-  background: url("/styles/images/demo.jpg") no-repeat fixed;
+  background: url("/MZHomeWeather/styles/images/demo.jpg") no-repeat fixed;
   -webkit-background-size: cover;
 }
 h1 {
